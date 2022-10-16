@@ -1,9 +1,12 @@
 <?php
 if (!function_exists('getResult')) {
+    /**
+     * @throws Exception
+     */
    function getResult(array $boxes, int $weight): int
    {
        //Если вес хоть одной из коробок не int
-       array_walk($boxes,function ($value){
+       array_walk( $boxes,function ($value){
           if (!is_int($value)) throw new \Exception('Not integer weight of one box');
        });
 
