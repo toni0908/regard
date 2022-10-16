@@ -31,7 +31,8 @@
             "Database\\Seeders\\": "database/seeders/"
         },
         "files": [
-            "app/Tasks/Task1/reverse.php"
+            "app/Tasks/Task1/reverse.php",
+            "app/Tasks/Task3/boxes.php"
         ]
     },
     "autoload-dev": {
